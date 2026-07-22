@@ -1,0 +1,227 @@
+{
+  "summary": {
+    "total_records": 3456,
+    "train_records": 3035,
+    "dev_records": 421
+  },
+  "splits": {
+    "train": {
+      "records": 3035,
+      "turn_depth": {
+        "avg": 3.657,
+        "min": 1,
+        "max": 9
+      },
+      "question_length_chars": {
+        "avg": 58.224
+      },
+      "answer_length_chars": {
+        "avg": 4.303
+      },
+      "table": {
+        "columns_avg": 2.841,
+        "rows_avg": 5.232
+      },
+      "data_quality": {
+        "turn_alignment_issues": 0,
+        "empty_string_cells": 184,
+        "empty_string_cells_ids": [
+          "Double_PNC/2014/page_99.pdf",
+          "Single_RE/2013/page_40.pdf-1",
+          "Double_GPN/2007/page_97.pdf",
+          "Single_IPG/2015/page_24.pdf-2",
+          "Single_IPG/2016/page_24.pdf-2",
+          "Double_RE/2014/page_40.pdf",
+          "Single_IPG/2014/page_95.pdf-3",
+          "Single_IPG/2014/page_95.pdf-1",
+          "Single_MRO/2008/page_130.pdf-3",
+          "Single_IPG/2014/page_95.pdf-2",
+          "Double_MSI/2007/page_42.pdf",
+          "Single_STT/2001/page_41.pdf-3",
+          "Single_CE/2014/page_32.pdf-3",
+          "Double_RE/2010/page_42.pdf",
+          "Double_PNC/2015/page_48.pdf",
+          "Double_PNC/2014/page_232.pdf",
+          "Single_PPG/2011/page_28.pdf-3",
+          "Single_IPG/2017/page_26.pdf-1",
+          "Single_RE/2016/page_40.pdf-4",
+          "Single_RE/2014/page_40.pdf-4",
+          "Single_GS/2018/page_212.pdf-1",
+          "Double_SNPS/2006/page_46.pdf",
+          "Single_PPG/2011/page_28.pdf-4",
+          "Single_C/2008/page_105.pdf-1",
+          "Single_MRO/2007/page_79.pdf-2",
+          "Single_ZBH/2004/page_68.pdf-1",
+          "Single_CE/2014/page_32.pdf-2",
+          "Single_STT/2001/page_74.pdf-3",
+          "Single_PNC/2011/page_208.pdf-1",
+          "Single_RE/2017/page_41.pdf-2",
+          "Double_PNC/2013/page_230.pdf",
+          "Single_GS/2018/page_212.pdf-2",
+          "Single_SLG/2009/page_99.pdf-1",
+          "Double_PNC/2018/page_45.pdf",
+          "Double_PNC/2011/page_208.pdf",
+          "Single_PNC/2017/page_168.pdf-1",
+          "Single_K/2012/page_44.pdf-3",
+          "Single_IPG/2017/page_26.pdf-2",
+          "Single_PNC/2018/page_45.pdf-5",
+          "Single_RE/2018/page_38.pdf-3",
+          "Single_AMT/2004/page_76.pdf-4",
+          "Double_STT/2008/page_139.pdf",
+          "Single_ETR/2015/page_133.pdf-3",
+          "Single_PNC/2014/page_232.pdf-2",
+          "Single_IPG/2015/page_24.pdf-3",
+          "Single_IPG/2013/page_22.pdf-2",
+          "Single_K/2013/page_27.pdf-4",
+          "Single_STT/2001/page_74.pdf-1",
+          "Double_UPS/2007/page_103.pdf",
+          "Double_AMT/2006/page_116.pdf",
+          "Single_MRO/2008/page_99.pdf-2",
+          "Single_VLO/2012/page_129.pdf-1",
+          "Single_HUM/2013/page_52.pdf-4",
+          "Single_PNC/2018/page_45.pdf-4",
+          "Double_ADBE/2018/page_71.pdf",
+          "Single_AES/2016/page_45.pdf-3",
+          "Double_MRO/2008/page_99.pdf",
+          "Double_RE/2013/page_40.pdf",
+          "Double_PNC/2012/page_46.pdf",
+          "Single_GPN/2013/page_98.pdf-1",
+          "Double_ETFC/2012/page_85.pdf",
+          "Double_IPG/2018/page_26.pdf",
+          "Double_GS/2018/page_212.pdf",
+          "Double_MRO/2009/page_138.pdf",
+          "Single_IPG/2018/page_26.pdf-2",
+          "Single_DISCA/2011/page_35.pdf-2",
+          "Single_AES/2016/page_45.pdf-1",
+          "Double_ZBH/2004/page_68.pdf",
+          "Single_RE/2016/page_40.pdf-1",
+          "Single_PNC/2015/page_48.pdf-1",
+          "Single_VLO/2011/page_126.pdf-1",
+          "Single_DVN/2011/page_26.pdf-1",
+          "Single_AMT/2004/page_46.pdf-4",
+          "Double_C/2010/page_50.pdf",
+          "Double_JPM/2003/page_51.pdf",
+          "Double_STT/2007/page_95.pdf",
+          "Double_ETFC/2013/page_159.pdf",
+          "Single_PNC/2011/page_208.pdf-3",
+          "Single_AES/2017/page_110.pdf-3",
+          "Single_GPN/2013/page_98.pdf-3",
+          "Single_SLG/2009/page_99.pdf-3",
+          "Double_HFC/2018/page_43.pdf",
+          "Single_AMT/2004/page_76.pdf-2",
+          "Single_CE/2014/page_32.pdf-4",
+          "Single_IPG/2014/page_23.pdf-2",
+          "Double_GIS/2019/page_104.pdf",
+          "Single_CE/2017/page_37.pdf-1",
+          "Double_AMT/2006/page_96.pdf",
+          "Single_STT/2001/page_41.pdf-4",
+          "Single_AMT/2004/page_76.pdf-3",
+          "Single_PNC/2012/page_46.pdf-2",
+          "Single_SNPS/2009/page_39.pdf-1",
+          "Double_PNC/2016/page_44.pdf",
+          "Double_STT/2001/page_41.pdf",
+          "Double_PNC/2011/page_183.pdf",
+          "Single_L/2008/page_120.pdf-2",
+          "Single_STT/2008/page_139.pdf-3",
+          "Double_AMT/2004/page_46.pdf",
+          "Single_STT/2001/page_41.pdf-2",
+          "Single_IPG/2018/page_26.pdf-1",
+          "Single_PNC/2009/page_51.pdf-3",
+          "Double_PPG/2011/page_28.pdf",
+          "Single_RCL/2010/page_81.pdf-2",
+          "Single_GIS/2017/page_86.pdf-4",
+          "Double_REGN/2010/page_68.pdf",
+          "Single_C/2008/page_105.pdf-4",
+          "Single_MRO/2007/page_79.pdf-1",
+          "Double_K/2012/page_44.pdf",
+          "Double_CDNS/2018/page_32.pdf",
+          "Double_MRO/2008/page_145.pdf",
+          "Single_IPG/2015/page_24.pdf-1",
+          "Single_AON/2011/page_91.pdf-2",
+          "Double_CB/2010/page_117.pdf",
+          "Double_IPG/2014/page_95.pdf",
+          "Double_PNC/2013/page_66.pdf",
+          "Single_PNC/2013/page_102.pdf-2",
+          "Single_IPG/2017/page_26.pdf-4",
+          "Double_IPG/2012/page_21.pdf",
+          "Single_GPN/2009/page_95.pdf-2",
+          "Single_ETR/2015/page_133.pdf-4",
+          "Double_PKG/2011/page_14.pdf",
+          "Single_RE/2014/page_40.pdf-2",
+          "Single_K/2012/page_44.pdf-2",
+          "Double_C/2010/page_69.pdf",
+          "Double_AMT/2007/page_114.pdf",
+          "Single_RCL/2010/page_81.pdf-3",
+          "Double_AES/2016/page_45.pdf",
+          "Single_PPG/2011/page_28.pdf-2",
+          "Single_RE/2010/page_42.pdf-4",
+          "Double_IPG/2014/page_23.pdf",
+          "Single_PNC/2011/page_183.pdf-4",
+          "Single_AAPL/2007/page_117.pdf-1",
+          "Single_PNC/2013/page_102.pdf-1",
+          "Double_AMT/2004/page_76.pdf",
+          "Double_IPG/2015/page_24.pdf"
+        ],
+        "empty_answers": 2,
+        "empty_answers_ids": [
+          "Double_MRO/2009/page_32.pdf",
+          "Double_REGN/2010/page_72.pdf"
+        ]
+      },
+      "answer_format": {
+        "numeric_string": 11059,
+        "text": 37,
+        "empty": 2
+      },
+      "features": {
+        "has_type2_question_true": 889,
+        "has_duplicate_columns_true": 60,
+        "has_non_numeric_values_true": 371
+      }
+    },
+    "dev": {
+      "records": 421,
+      "turn_depth": {
+        "avg": 3.539,
+        "min": 2,
+        "max": 8
+      },
+      "question_length_chars": {
+        "avg": 58.997
+      },
+      "answer_length_chars": {
+        "avg": 4.274
+      },
+      "table": {
+        "columns_avg": 3.033,
+        "rows_avg": 5.173
+      },
+      "data_quality": {
+        "turn_alignment_issues": 0,
+        "empty_string_cells": 12,
+        "empty_string_cells_ids": [
+          "Single_BLL/2007/page_35.pdf-3",
+          "Single_BLL/2007/page_35.pdf-1",
+          "Single_APD/2016/page_96.pdf-2",
+          "Single_APD/2016/page_96.pdf-1",
+          "Single_DISCA/2012/page_39.pdf-4",
+          "Double_AMT/2005/page_85.pdf",
+          "Single_BLL/2007/page_35.pdf-4",
+          "Single_PNC/2018/page_171.pdf-2"
+        ],
+        "empty_answers": 0,
+        "empty_answers_ids": []
+      },
+      "answer_format": {
+        "numeric_string": 1486,
+        "text": 4,
+        "empty": 0
+      },
+      "features": {
+        "has_type2_question_true": 121,
+        "has_duplicate_columns_true": 17,
+        "has_non_numeric_values_true": 32
+      }
+    }
+  }
+}
